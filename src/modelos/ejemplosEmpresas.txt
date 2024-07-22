@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nombre": "Tech Solutions",
+    "sitioWeb": "https://www.techsolutions.com",
+    "tipo": "IT Services"
+  },
+  {
+    "id": 2,
+    "nombre": "Green Energy Corp",
+    "sitioWeb": "https://www.greenenergy.com",
+    "tipo": "Renewable Energy"
+  },
+  {
+    "id": 3,
+    "nombre": "HealthFirst",
+    "sitioWeb": "https://www.healthfirst.com",
+    "tipo": "Healthcare"
+  },
+  {
+    "id": 4,
+    "nombre": "EduLearn",
+    "sitioWeb": "https://www.edulearn.com",
+    "tipo": "Education"
+  },
+  {
+    "id": 5,
+    "nombre": "FinTech Innovators",
+    "sitioWeb": "https://www.fintechinnovators.com",
+    "tipo": "Financial Technology"
+  }
+]
