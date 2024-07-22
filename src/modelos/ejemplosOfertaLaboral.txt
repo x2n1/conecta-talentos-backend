@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "fechaCreacion": "2024-07-01",
+    "descripcion": "Desarrollador de software con experiencia en Java y Spring Boot.",
+    "cargo": "Desarrollador de Software",
+    "region": "Metropolitana",
+    "tipo": "Full-time",
+    "estado": "open",
+    "empresa": {
+      "id": 1,
+      "nombre": "Tech Solutions",
+      "sitioWeb": "https://www.techsolutions.com",
+      "tipo": "IT Services"
+    },
+    "postulaciones": [
+      {
+        "id": 101,
+        "fechaPostulacion": "2024-07-02",
+        "estudiante": {
+          "id": 201,
+          "nombre": "Juan",
+          "apellidos": "Perez",
+          "edad": 25,
+          "profesion": "Ingeniero en Computación",
+          "email": "juan.perez@example.com"
+        },
+        "estado": "open"
+      },
+      {
+        "id": 102,
+        "fechaPostulacion": "2024-07-05",
+        "estudiante": {
+          "id": 202,
+          "nombre": "María",
+          "apellidos": "Gonzalez",
+          "edad": 28,
+          "profesion": "Desarrolladora de Software",
+          "email": "maria.gonzalez@example.com"
+        },
+        "estado": "closed"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "fechaCreacion": "2024-06-15",
+    "descripcion": "Ingeniero ambiental con conocimientos en energías renovables.",
+    "cargo": "Ingeniero Ambiental",
+    "region": "Valparaíso",
+    "tipo": "Part-time",
+    "estado": "open",
+    "empresa": {
+      "id": 2,
+      "nombre": "Green Energy Corp",
+      "sitioWeb": "https://www.greenenergy.com",
+      "tipo": "Renewable Energy"
+    },
+    "postulaciones": [
+      {
+        "id": 103,
+        "fechaPostulacion": "2024-06-16",
+        "estudiante": {
+          "id": 203,
+          "nombre": "Carlos",
+          "apellidos": "Ramirez",
+          "edad": 30,
+          "profesion": "Ingeniero Ambiental",
+          "email": "carlos.ramirez@example.com"
+        },
+        "estado": "open"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "fechaCreacion": "2024-05-20",
+    "descripcion": "Enfermera para atención primaria de salud.",
+    "cargo": "Enfermera",
+    "region": "Biobío",
+    "tipo": "Full-time",
+    "estado": "closed",
+    "empresa": {
+      "id": 3,
+      "nombre": "HealthFirst",
+      "sitioWeb": "https://www.healthfirst.com",
+      "tipo": "Healthcare"
+    },
+    "postulaciones": [
+      {
+        "id": 104,
+        "fechaPostulacion": "2024-05-22",
+        "estudiante": {
+          "id": 204,
+          "nombre": "Ana",
+          "apellidos": "Lopez",
+          "edad": 27,
+          "profesion": "Enfermera",
+          "email": "ana.lopez@example.com"
+        },
+        "estado": "closed"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "fechaCreacion": "2024-07-10",
+    "descripcion": "Profesor de matemáticas para enseñanza media.",
+    "cargo": "Profesor de Matemáticas",
+    "region": "Araucanía",
+    "tipo": "Part-time",
+    "estado": "open",
+    "empresa": {
+      "id": 4,
+      "nombre": "EduLearn",
+      "sitioWeb": "https://www.edulearn.com",
+      "tipo": "Education"
+    },
+    "postulaciones": [
+      {
+        "id": 105,
+        "fechaPostulacion": "2024-07-12",
+        "estudiante": {
+          "id": 205,
+          "nombre": "Ricardo",
+          "apellidos": "Diaz",
+          "edad": 35,
+          "profesion": "Profesor de Matemáticas",
+          "email": "ricardo.diaz@example.com"
+        },
+        "estado": "open"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "fechaCreacion": "2024-06-01",
+    "descripcion": "Analista financiero con experiencia en fintech.",
+    "cargo": "Analista Financiero",
+    "region": "Los Lagos",
+    "tipo": "Full-time",
+    "estado": "closed",
+    "empresa": {
+      "id": 5,
+      "nombre": "FinTech Innovators",
+      "sitioWeb": "https://www.fintechinnovators.com",
+      "tipo": "Financial Technology"
+    },
+    "postulaciones": [
+      {
+        "id": 106,
+        "fechaPostulacion": "2024-06-02",
+        "estudiante": {
+          "id": 206,
+          "nombre": "Lucia",
+          "apellidos": "Martinez",
+          "edad": 29,
+          "profesion": "Analista Financiero",
+          "email": "lucia.martinez@example.com"
+        },
+        "estado": "closed"
+      },
+      {
+        "id": 107,
+        "fechaPostulacion": "2024-06-03",
+        "estudiante": {
+          "id": 207,
+          "nombre": "Fernando",
+          "apellidos": "Sanchez",
+          "edad": 32,
+          "profesion": "Economista",
+          "email": "fernando.sanchez@example.com"
+        },
+        "estado": "closed"
+      }
+    ]
+  }
+]
