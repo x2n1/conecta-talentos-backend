@@ -25,11 +25,25 @@ export class OfertasLaboralesService {
     }
 
 
-    obtenerOfertasLaborales(empresa?: string, tipoPostulacion?: string): OfertaLaboral[]{
-        // if(empresa){
-        //     for()
-        //     return this.ofertasLaborales.empresa
-        // }
+    obtenerOfertasLaborales(empresa?: string, estadoPostulacion?: string): OfertaLaboral[]{
+        let postulacionFiltro: OfertaLaboral[] = [];
+
+        if(empresa && estadoPostulacion == null){
+            for(let i: number = 0; i < this.ofertasLaborales.length; i++){
+               if(this.ofertasLaborales[i].empresa.nombre == empresa){
+                    postulacionFiltro.push(this.ofertasLaborales[i])
+                    } 
+            }
+            return postulacionFiltro
+        }
+        else if(empresa && estadoPostulacion){
+            for(let i: number = 0; i < this.ofertasLaborales.length; i++){
+               if(this.ofertasLaborales[i].empresa.nombre == empresa && this.ofertasLaborales[i].estado == estadoPostulacion){
+                    postulacionFiltro.push(this.ofertasLaborales[i])
+                    } 
+            }
+            return postulacionFiltro
+        }
         return this.ofertasLaborales
     }
 

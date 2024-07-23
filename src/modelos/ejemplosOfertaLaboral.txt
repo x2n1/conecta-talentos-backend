@@ -174,5 +174,121 @@
         "estado": "closed"
       }
     ]
+  },
+  {
+    "id": 6,
+    "fechaCreacion": "2024-07-15",
+    "descripcion": "Analista de datos con experiencia en SQL y Python.",
+    "cargo": "Analista de Datos",
+    "region": "Antofagasta",
+    "tipo": "Full-time",
+    "estado": "open",
+    "empresa": {
+      "id": 1,
+      "nombre": "Tech Solutions",
+      "sitioWeb": "https://www.techsolutions.com",
+      "tipo": "IT Services"
+    },
+    "postulaciones": [
+      {
+        "id": 108,
+        "fechaPostulacion": "2024-07-16",
+        "estudiante": {
+          "id": 208,
+          "nombre": "Andrea",
+          "apellidos": "Fernandez",
+          "edad": 26,
+          "profesion": "Analista de Datos",
+          "email": "andrea.fernandez@example.com"
+        },
+        "estado": "open"
+      },
+      {
+        "id": 109,
+        "fechaPostulacion": "2024-07-17",
+        "estudiante": {
+          "id": 209,
+          "nombre": "Luis",
+          "apellidos": "Morales",
+          "edad": 28,
+          "profesion": "Científico de Datos",
+          "email": "luis.morales@example.com"
+        },
+        "estado": "closed"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "fechaCreacion": "2024-06-25",
+    "descripcion": "Administrador de sistemas con conocimientos en Linux y AWS.",
+    "cargo": "Administrador de Sistemas",
+    "region": "Coquimbo",
+    "tipo": "Part-time",
+    "estado": "open",
+    "empresa": {
+      "id": 1,
+      "nombre": "Tech Solutions",
+      "sitioWeb": "https://www.techsolutions.com",
+      "tipo": "IT Services"
+    },
+    "postulaciones": [
+      {
+        "id": 110,
+        "fechaPostulacion": "2024-06-26",
+        "estudiante": {
+          "id": 210,
+          "nombre": "Jorge",
+          "apellidos": "Castro",
+          "edad": 34,
+          "profesion": "Administrador de Sistemas",
+          "email": "jorge.castro@example.com"
+        },
+        "estado": "open"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "fechaCreacion": "2024-05-30",
+    "descripcion": "Desarrollador frontend con experiencia en React y JavaScript.",
+    "cargo": "Desarrollador Frontend",
+    "region": "Los Ríos",
+    "tipo": "Full-time",
+    "estado": "closed",
+    "empresa": {
+      "id": 1,
+      "nombre": "Tech Solutions",
+      "sitioWeb": "https://www.techsolutions.com",
+      "tipo": "IT Services"
+    },
+    "postulaciones": [
+      {
+        "id": 111,
+        "fechaPostulacion": "2024-06-01",
+        "estudiante": {
+          "id": 211,
+          "nombre": "Camila",
+          "apellidos": "Rojas",
+          "edad": 24,
+          "profesion": "Desarrolladora Frontend",
+          "email": "camila.rojas@example.com"
+        },
+        "estado": "closed"
+      },
+      {
+        "id": 112,
+        "fechaPostulacion": "2024-06-02",
+        "estudiante": {
+          "id": 212,
+          "nombre": "Pablo",
+          "apellidos": "Gomez",
+          "edad": 29,
+          "profesion": "Ingeniero de Software",
+          "email": "pablo.gomez@example.com"
+        },
+        "estado": "closed"
+      }
+    ]
   }
 ]
